@@ -1,0 +1,144 @@
+body {
+  background-color: rgba(74, 55, 27, 0.525);
+}
+
+/* ------- HEADER CSS ------ */
+
+.header {
+  margin: 20px;
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header :nth-child(1) {
+  color: #036003;
+  font-weight: 600;
+}
+
+.header :nth-child(2) {
+  color: #59068d;
+  font-weight: 600;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li:not(:first-child) {
+  margin-top: 20px;
+}
+
+.navbar img {
+  width: 4em;
+}
+
+.navbar ul li a {
+  margin: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  color: black;
+  font-size: 18px;
+}
+
+.navbar ul li:not(:first-child) a {
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: #01acd7;
+  padding: 10px 20px;
+}
+
+
+/* ------- MAIN CSS ------ */
+.main li {
+  list-style: none;
+}
+
+.main li .icon {
+  display: inline;
+  color: green;
+  margin-right: 10px;
+}
+
+.slider_img {
+  height: 400px;
+  width: 100%;
+}
+
+.main_img {
+  text-align: center;
+  margin: 50px;
+}
+
+.card {
+  border: 2px solid white;
+  list-style: none;
+  display: flex;
+  height: 200px;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card img {
+  height: inherit;
+}
+
+.card div {
+  width: 30%;
+}
+
+.main {
+  margin: 30px;
+}
+
+.property_address {
+  font-size: x-large;
+}
+
+/* ------- FOOTER CSS ------ */
+footer {
+  min-height: 100px;
+  background-color: #01acd7;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer ul li {
+  margin: 10px;
+  list-style: none;
+}
+
+footer img {
+  width: 4em;
+}
+
+footer ul li:not(:first-child) {
+  margin-top: 2em;
+}
+
+footer ul li a {
+  margin: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  color: black;
+  font-size: 18px;
+}
+
+.address {
+  max-width: 175px;
+}
