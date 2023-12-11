@@ -73,6 +73,10 @@ body {
   width: 100%;
 }
 
+.services_img {
+  text-align: center;
+}
+
 .main_img {
   text-align: center;
   margin: 50px;
