@@ -78,6 +78,11 @@ body {
   margin: 50px;
 }
 
+.main_img img {
+  height: 400px;
+  width: 800px;
+}
+
 .card {
   border: 2px solid white;
   list-style: none;
@@ -92,6 +97,7 @@ body {
 
 .card img {
   height: inherit;
+  width: 350px;
 }
 
 .card div {
