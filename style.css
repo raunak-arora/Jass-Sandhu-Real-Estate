@@ -77,6 +77,14 @@ body {
   text-align: center;
 }
 
+.about_img {
+  text-align: center;
+}
+
+.about_img img {
+  width: 500px;
+}
+
 .main_img {
   text-align: center;
   margin: 50px;
